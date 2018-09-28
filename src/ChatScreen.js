@@ -111,6 +111,7 @@ export default class ChatScreen extends Component {
             <div style={styles.container}>
                 <div style={styles.chatContainer}>
                 <aside style={styles.whosOnlineListContainer}>
+                <h3> Users </h3>
                 <WhosOnlineList currentUser={this.state.currentUser} users={this.state.currentRoom.users} />
                 </aside>
                 <section style={styles.chatListContainer}>

@@ -24,8 +24,8 @@ render() {
     return (
         <div className="inputusername">
         <form id="userform" onSubmit={this.onSubmit} >
-            <div className="form-group">
-                <label> Enter Username </label>
+            <div >
+                <label className="titre"> Enter Username </label>
                 <input 
                     type="text" 
                     className="form-control" 
